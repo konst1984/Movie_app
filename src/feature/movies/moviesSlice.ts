@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 import { IParamsGetMovies, IState } from "../../types";
 
-const BASE_URL: string = `https://www.odbapi.com/`;
+const BASE_URL: string = `https://www.omdbapi.com/`;
 const API_KEY_STRING: string = `?apiKey=${process.env.REACT_APP_OMDB_API_KEY}&`;
 
 export const getMovies = createAsyncThunk(
