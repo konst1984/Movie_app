@@ -3,7 +3,7 @@
   background: $secondary-color;
   gap: 20px;
   min-height: 72px;
-  padding: 10px 20px;
+  padding: 10px 0;
   color: $font-primary;
   @media (max-width: 480px){
     flex-direction: column;

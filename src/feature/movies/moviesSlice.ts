@@ -67,8 +67,11 @@ const moviesSlice = createSlice({
       state.error = false;
     });
     builder.addCase(getMovies.fulfilled, (state, { payload }) => {
+      console.log(payload);
+      if (payload.Response === "False") {
+      }
       state.loading = false;
-      state.movies = payload.Search;
+      state.movies = payload.Search || [];
       state.totalResults = payload.totalResults;
     });
     builder.addCase(getMovies.rejected, (state) => {

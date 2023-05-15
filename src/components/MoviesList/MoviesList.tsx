@@ -34,10 +34,16 @@ const MoviesList = () => {
       ) : (
         <div className="movie-wrapper">
           <div className="movie-list">
-            <h2>Movies</h2>
-            <div className="movie-container">{renderMovies}</div>
+            {renderMovies.length === 0 ? (
+              <div className="empty-container">Movie not found!</div>
+            ) : (
+              <>
+                <h2>{categoryMovies.toUpperCase()}</h2>
+                <div className="movie-container">{renderMovies}</div>
+                <PaginationLine />
+              </>
+            )}
           </div>
-          <PaginationLine />
         </div>
       )}
     </>
