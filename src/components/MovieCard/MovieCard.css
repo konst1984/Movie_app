@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #0f171e;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  flex-grow: 1;
+  margin: auto;
+  padding: 15px;
+  max-width: 1200px;
+}
+
+.card-item {
+  background: #1a242f;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 440px;
+}
+.card-item:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.card-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-top {
+  flex-grow: 1;
+}
+.card-top img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-bottom {
+  padding: 20px 10px;
+  min-height: 120px;
+}
+
+.card-info {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  height: 100%;
+  color: #ffffff;
+}
+.card-info h4 {
+  flex-grow: 1;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=MovieCard.css.map */

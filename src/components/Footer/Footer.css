@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #0f171e;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  flex-grow: 1;
+  margin: auto;
+  padding: 15px;
+  max-width: 1200px;
+}
+
+.footer {
+  background: #1a242f;
+  gap: 20px;
+  min-height: 72px;
+  padding: 10px 20px;
+  color: #ffffff;
+}
+@media (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=Footer.css.map */

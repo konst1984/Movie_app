@@ -1,0 +1,17 @@
+@import "../../index";
+.footer {
+  background: $secondary-color;
+  gap: 20px;
+  min-height: 72px;
+  padding: 10px 20px;
+  color: $font-primary;
+  @media (max-width: 480px){
+    flex-direction: column;
+  }
+}
+
+.footer_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

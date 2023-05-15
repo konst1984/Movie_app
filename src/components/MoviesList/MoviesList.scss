@@ -1,0 +1,18 @@
+@import "../../index";
+
+.movie-list,
+.show-list {
+  margin: 20px 0;
+  h2 {
+    color: $font-secondary;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+}
+
+.movie-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 15px;
+}
