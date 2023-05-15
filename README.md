@@ -27,3 +27,4 @@ Used by the library:
     -@reduxjs/toolkit;
     -redux-persist;
     -sass;
+    -typescript;
