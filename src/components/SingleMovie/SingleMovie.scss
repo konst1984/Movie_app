@@ -79,3 +79,23 @@
     object-fit: contain;
   }
 }
+
+.link-wiki{
+  color: $font-secondary;
+  padding: 5px 0;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.movie-info > div span.wiki-icon{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+.link-wiki:hover,
+.link-wiki:focus-visible{
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  transition: all 0.2s linear;
+}

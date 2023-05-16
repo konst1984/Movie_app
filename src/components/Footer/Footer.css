@@ -12,6 +12,8 @@ a {
 body {
   background: #0f171e;
   min-height: 100vh;
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
 }
 
 .app {
@@ -24,7 +26,7 @@ body {
   width: 100%;
   flex-grow: 1;
   margin: auto;
-  padding: 15px;
+  padding: 15px 30px 15px 15px;
   max-width: 1200px;
 }
 
