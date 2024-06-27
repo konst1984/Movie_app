@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project [Demo](https://konst1984.github.io/movie_app).
+This project [Demo](https://konstvb-rep.github.io/movie_app).
 
 Used  API [The Open Movie Database](http://www.omdbapi.com/)
 
